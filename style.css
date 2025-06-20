@@ -1,0 +1,17 @@
+
+.images {
+    width: 100%;
+    display: flex;
+ }
+ .images img {
+    width: 250px;
+    height: 250px;
+transition: all 500ms ease-out;
+    border-radius: 20px;
+
+}
+
+.images img:hover {
+    width: 300px;
+}
+
