@@ -1,17 +1,21 @@
+body {
+    background-color: antiquewhite;
+}
 
 .images {
     width: 100%;
     display: flex;
- }
- .images img {
+}
+
+.images img {
     width: 250px;
     height: 250px;
-transition: all 500ms ease-out;
-    border-radius: 20px;
+    transition: all 300ms ease-out;
+    border-top-left-radius: 20px;
+    box-shadow: 4px 10px 20px black;
 
 }
 
 .images img:hover {
     width: 300px;
 }
-
